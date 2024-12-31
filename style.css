@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    
+margin: 0;
+    
+    pad
+
+   
+padding: 0;
+    
+    backg
+
+    ba
+
+   
+background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    
+    text-alig
+
+    text-al
+
+    text
+
+    t
+
+  
+text-align: center;
+}
+
+}
+``
+style.scss (Sass
+
+SCSS
+
+著作権を所有する
+$main-color: #333;
+$bg-color: #f9f9f9;
+
+body {
+    
+    fo
+
+  
+font-family: Arial, sans-serif;
+    
+    margi
+
+   
+margin: 0;
+    
+    pad
+
+  
+padding: 0;
+    
+    backgrou
+
+    ba
+background-color: $bg-color;
+    
+    colo
+color: $main-color;
+}
+
+h1 {
+    
+    text-ali
+
+    text-
+
+    t
+
+ 
+text-align: center;
+}

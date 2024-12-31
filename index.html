@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Page Redirect</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="redirectToRandomPage()">
+    <script>
+        // 表示したい外部ページのURLリスト
+        const pages = [
+          
+'https://www.instagram.com/p/C75g5Xwv70F/',
+'https://www.instagram.com/p/C8LiIrlvmvF/',
+'https://www.instagram.com/p/C8dji0_vwCC/',
+'https://www.instagram.com/p/C8vlbHWPeeu/',
+'https://www.instagram.com/p/C8_CYMCvMNb/',
+'https://www.instagram.com/p/C9TnWuPPrSr/',
+'https://www.instagram.com/p/C9lqMnSPLsa/',
+'https://www.instagram.com/p/C93rA3IP_nB/',
+'https://www.instagram.com/p/C-Js65_Phyx/',
+'https://www.instagram.com/p/C-bu_qfv05P/',
+'https://www.instagram.com/p/C-_ngXCyJGP/',
+'https://www.instagram.com/p/C_RzLyQvL86/',
+'https://www.instagram.com/p/C_j1JCRPP_L/',
+'https://www.instagram.com/p/C_12NLsS8yM/',
+'https://www.instagram.com/p/DAH4Cwjy-yc/',
+'https://www.instagram.com/p/DAZ6gHQy9oY/',
+'https://www.instagram.com/p/DAr7U--SXw3/',
+'https://www.instagram.com/p/DA98h4Bqw4I/',
+'https://www.instagram.com/p/DBQBpQfKVwd/',
+'https://www.instagram.com/p/DBiIqtjKpBA/',
+'https://www.instagram.com/p/DB0Ar_QKbgP/',
+'https://www.instagram.com/p/DCGDl-YqZ1B/',
+'https://www.instagram.com/p/DCYEoCKy_-U/',
+'https://www.instagram.com/p/DCqGPaKSkQP/',
+'https://www.instagram.com/p/DC8Oo_SSvZy/',
+'https://www.instagram.com/p/DDOJLOESjJb/',
+'https://www.instagram.com/p/DDgLe4qS7HP/',
+'https://www.instagram.com/p/DDyMcsVSu3y/',
+'https://www.instagram.com/p/DEEM9o0Sa4R/'
+
+        ];
+
+        // ランダムページにリダイレクトする関数
+        function redirectToRandomPage() {
+            const randomIndex = Math.floor(Math.random() * pages.length);
+            window.location.href = pages[randomIndex];
+        }
+    </script>
+</body>
+</html>
